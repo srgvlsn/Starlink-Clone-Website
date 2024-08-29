@@ -1,0 +1,385 @@
+@font-face 
+{
+  font-family:'Starlink-Roboto'; src: url(./Roboto/Roboto-Bold.ttf);
+}
+@font-face 
+{
+  font-family:'Starlink-D-DIN-Regular'; src: url(./Fonts.D-DIN/DD.ttf)
+}
+@font-face 
+{
+  font-family:'Starlink-D-DIN-Bold'; src: url(./Fonts.D-DIN/DDB.ttf)
+}
+body
+{
+  background-color: #000000; margin:0; 
+  font-family:'Starlink-Roboto'; background-image: url(./Images/background1.webp); background-position:left; background-repeat: no-repeat; background-size: 50%; background-attachment: fixed;
+  overflow-x: hidden;
+}
+/*  */
+.header 
+{
+  display: flex; justify-content: space-between; height: 60px; align-items: center; 
+  padding: 20px; background-color: #00000015; 
+}
+.logo-part
+{
+  width: 5%;
+}
+.logo
+{
+  padding-left: 50px;
+}
+.nav-links
+{
+  font-size: 14px; font-weight: bold;
+}
+.navigation
+{
+  width: 50%;
+}
+.navigator2, .navigator3
+{
+  color: #ffffff;  text-decoration: none;  margin-left: 19px; margin-right: 19px;
+}
+.navigator1
+{
+  color: #ffffff;  text-decoration: none; margin-right: 18px;
+}
+.site-type
+{
+  width:20%; display: flex; align-items: center; font: 10px;
+}
+.site-select
+{
+  color: #ffffff; font-weight: bold; float: left; font-size: 14px; border-bottom: 1px; text-decoration: none; margin-left: 45;
+}
+.site-select-personal
+{
+  color: #ffffff; font-weight: bold; float: left; font-size: 14px; border-bottom: 1px;
+}
+.seperator
+{
+  color: #ffffff; margin-left: 10px; margin-right: 10px; float: left; margin: 0 16p;
+}
+.menu
+{
+  margin-left: 60px; height: 13px;
+}
+/*  */
+.container
+{
+  background-image: url(./Images/home_1intro.webp); background-position: center; background-size: cover; background-repeat: no-repeat; height: 700px
+}
+.center-text
+{
+  margin-top: 35px;text-align: center; color: #ffffff; font-family: 'Starlink-D-DIN-Bold'; font-size: 72px; margin-bottom: 8px; font-stretch: expanded; line-height: 1.2;
+}
+.center-text-d
+{
+  margin-top: 12px; text-align: center; color: #ffffff; font-family: 'Starlink-D-DIN-Regular'; font-weight: 400; font-size: 25px; margin-bottom: 8px; font-stretch: expanded; margin-bottom: 0.5rem;
+}
+#center-text-dd
+{
+  margin-top: 9px; text-align: center; color: #ffffff; font-family: 'Starlink-D-DIN-Bold'; font-weight: 400; font-size: 12px; margin-bottom: 8px; font-stretch: expanded; margin-bottom: 0.5rem; 
+  align-items: center; cursor: pointer;
+}
+.watchnow-button
+{
+  background-color: #ffffff00;padding: 15px; padding-top: 5px; padding-bottom: 5px; font-family:'Starlink-Roboto'; align-items: center; border: none; display: flex; cursor: pointer;
+}
+.wn
+{
+  margin-left:15px; height: 20px; display: flex;
+}
+.watchnow-button:hover
+{
+  background-color: #ffffff10;
+}
+.wnbutton
+{
+  display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 100px;
+}
+address
+{
+  display: flex; justify-content: center; width: 100%;
+}
+.address-line1
+{
+  margin-top: 45px; margin-left: 517px; color: #ffffff; font-family:'Starlink-Roboto'; font-weight: 400; font-size: 15px; margin-bottom: 8px; font-stretch: expanded; margin-bottom: 0.5rem;
+}
+.search-and-order
+{
+  display: flex; justify-content: center;
+}
+.address-box
+{
+  width: 332px; height: 46px; padding: 0 0 0 26px; border: 2px solid hsla(0, 0%, 100%, .6); border-radius: 4px; border-width: 2px; cursor: text; background: hsla(0, 0%, 100%, .15); 
+  backdrop-filter: blur(10px); text-overflow: ellipsis; border-top-right-radius: 0; border-bottom-right-radius: 0; border-right: none;
+}
+::placeholder 
+{
+  color: #FFFFFF; font-family:'Starlink-Roboto';
+}
+.gps-button
+{
+  border: 2px solid hsla(0, 0%, 100%, .6); background: hsla(0, 0%, 100%, .15); backdrop-filter: blur(10px); text-overflow: ellipsis;
+  border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-left: none;
+}
+.gps-pointer
+{
+  width: 24px; height: 24px; padding-top: 5px;
+}
+.order-button
+{
+  background-color: #ffffff; font-family:'Starlink-Roboto'; font-size: 12px; border: none; border-radius: 4px; width: 172px; height: 48px; padding:2px 4px; box-sizing: border-box; cursor: pointer;
+}
+.speedsmap-button
+{
+  background-color: #ffffff00;padding: 15px; padding-top: 5px; padding-bottom: 5px; font-family:'Starlink-Roboto'; align-items: center; border: none; display: flex; cursor: pointer;
+}
+.sm
+{
+  margin-left:10px; height: 20px; display: flex;
+}
+.speedsmap-button:hover
+{
+  background-color: #ffffff10;
+}
+.smbutton
+{
+  display: flex; justify-content: center; align-items: center; margin-top: 20px; margin-bottom: 100px;
+}
+/*  */
+.cards-container 
+{
+  display: flex; justify-content:space-around; align-content:space-around ; margin: 150px auto; max-width: 1420px; margin-top: 40px;
+}
+.card-home
+{
+  background-color: #000000; overflow: hidden; width: 40%; text-indent: 20px; text-align: left; color: #fff; margin-right: 15px; border: none; 
+  background-image: url(./Images/home_cards_resi.webp); background-position:top; background-repeat: no-repeat; background-size: 100%; background-attachment:local; height:675px;
+}
+.card-roam 
+{
+  background-color: #000000; overflow: hidden; width: 40%; text-indent: 20px; text-align: left; color: #fff; margin-right: 15px; border: none; 
+  background-image: url(./Images/home_cards_roam.webp); background-position:top; background-repeat: no-repeat; background-size: 100%; background-attachment:local; height:675px;
+}
+.card-boats
+{
+  background-color: #000000; overflow: hidden; width: 40%; text-indent: 20px; text-align: left; color: #fff; margin-right: 15px; border: none; 
+  background-image: url(./Images/home_cards_boat.jpg); background-position:top; background-repeat: no-repeat; background-size: 100%; background-attachment:local; height:675px;
+}
+.overlay-text-head
+{
+  font-size: 40px; font-family:'Starlink-D-DIN-Regular'; font-weight: 700px; margin-bottom: -10px; margin-top: 25px;
+}
+.overlay-text-content
+{
+  font-size: 25px; font-family:'Starlink-D-DIN-Regular'; font-weight: 400px;
+}
+/*  */
+.banner-container
+{
+  background-image: url(./Images/home_2middle.webp); background-position: center; background-size: cover; background-repeat: no-repeat; height: 100vh
+}
+.banner-texts
+{
+  color: #FFFFFF; max-width: 500px; padding: 100px; padding-top: 74px; padding-left: 90px;
+}
+.banner-text-head
+{
+  font-size: 40px; font-weight: 700px; font-family:'Starlink-D-DIN-Bold';  margin-bottom: -10px; text-align: left; letter-spacing: normal;
+}
+.banner-text-content
+{
+  font-size: 16px; font-weight: 100px; font-family:'Starlink-D-DIN-Regular';  text-align: left; line-height: 1.4;
+}
+/*  */
+.business-link-head
+{
+  color: #FFFFFF; font-size: 51px; text-align: center; margin-top: -105px; font-weight: 700; font-family:'Starlink-D-DIN-Bold';
+}
+.business-link-content
+{
+  color: #FFFFFF; font-size: 16px; text-align: center; margin-top: -46px; font-weight: 400; margin-bottom: 165px; font-family:'Starlink-D-DIN-Regular'; font-weight: 400; font-size: 16px;
+}
+.business-learnmore-link 
+{
+  display: inline-flex; align-items: center; text-decoration: none; margin-top: 9px;  color: #ffffff; font-family: 'Starlink-D-DIN-Bold'; font-weight: 400; font-size: 12px; margin-bottom: 8px; font-stretch: expanded; margin-bottom: 0.5rem; margin-left: 10px;
+  cursor: pointer;
+}
+.blm
+{
+  margin-left:3px; display: inline-flex; align-items: center; width: 25px; height: 25px;
+}
+/*  */
+.sector1
+{
+  width: 100%;
+}
+.sector1-container
+{
+  height: 700px; padding: 40px 20px; margin: 80px 70px; 
+}
+.s1-left
+{
+  width: 50%; height: 710px; background: #00000006; float: left; 
+  background-image: url(./Images/section_a_product.webp); background-position:top; background-repeat: no-repeat; background-size: 100%; background-attachment:local;
+}
+.s1-right
+{
+  width: 50%; height: 710px; background: #00000006; float: left;
+}
+.s1-right-textbox
+{
+  margin-top: 200px; margin-left: 180px; margin-right: 0; align-items: center; justify-content: flex-start; text-align: justify; 
+}
+.s1-right-textbox h1
+{
+  font-family:'Starlink-D-DIN-Bold'; font-size: 40px; font-weight: 700; color: #FFFFFF; margin-top: -40px;
+}
+#h3top
+{
+  font-family:'Starlink-D-DIN-Bold'; font-size: 28px; font-weight: 700; color: #FFFFFF; margin-top: 60px; margin-bottom: 15px;
+}
+#h3bottom
+{
+  font-family:'Starlink-D-DIN-Bold'; font-size: 28px; font-weight: 700; color: #FFFFFF; margin-top: 15px; margin-bottom: 60px;
+}
+.s1-right-textbox p
+{
+  font-family:'Starlink-D-DIN-regular'; font-size: 16px; font-weight: 400; color: #FFFFFF;
+}
+.android-dwnld-link
+{
+  display: inline-flex; align-items: center; text-decoration: none; margin-top: 9px;  color: #ffffff; font-family: 'Starlink-D-DIN-Bold'; font-weight: 400; font-size: 12px; margin-bottom: 8px; font-stretch: expanded; margin-bottom: 0.5rem; margin-left: 0px; cursor: pointer;
+}
+.ios-dwnld-link
+{
+  display: inline-flex; align-items: center; text-decoration: none; margin-top: 9px;  color: #ffffff; font-family: 'Starlink-D-DIN-Bold'; font-weight: 400; font-size: 12px; margin-bottom: 8px; font-stretch: expanded; margin-bottom: 0.5rem; margin-left: 10px; cursor: pointer;
+}
+.phoned
+{
+  margin-left:3px; display: inline-flex; align-items: center; width: 25px; height: 25px; cursor: pointer;
+}
+#vertical-line
+{
+  height: 40px; width: 0px; color: #303030;
+}
+/*  */
+.sector2
+{
+  width: 100%; margin-top: 160px;
+}
+.sector2-container
+{
+  height: 700px; padding: 40px 20px; margin: 80px 70px; 
+}
+.s2-right
+{
+  width: 50%; height: 710px; background: #00000006; float: left; 
+  background-image: url(./Images/section_b_contract.webp); background-position:top; background-repeat: no-repeat; background-size: 100%; background-attachment:local;
+}
+.s2-left
+{
+  width: 50%; height: 710px; background: #00000006; float: left;
+}
+.s2-left-textbox
+{
+  margin-top: 270px; margin-left: 20px; margin-right: 180px; align-items: center; justify-content: flex-start; text-align: justify; 
+}
+.s2-left-textbox h1
+{
+  font-family:'Starlink-D-DIN-Bold'; font-size: 40px; font-weight: 700; color: #FFFFFF;
+}
+.s2-left-textbox p
+{
+  font-family:'Starlink-D-DIN-regular'; font-size: 16px; font-weight: 400; color: #FFFFFF;
+}
+/*  */
+.rocket-container
+{
+  background-image: url(./Images/home_3final.webp); background-position: center; background-size: cover; background-repeat: no-repeat; height: 100vh
+}
+.rocket-texts
+{
+  color: #FFFFFF; max-width: 500px; padding: 100px; padding-top: 67px; padding-left: 90px;
+}
+.rocket-text-head
+{
+  font-size: 40px; font-weight: 700px; font-family:'Starlink-D-DIN-Bold';  margin-bottom: 20px; text-align: left; letter-spacing: normal;
+}
+.rocket-text-content
+{
+  font-size: 16px; font-weight: 100px; font-family:'Starlink-D-DIN-Regular';  text-align: left; line-height: 1.2; margin-bottom: 20px;
+}
+.learn-button
+{
+  cursor: pointer; font-family:'Starlink-Roboto'; color: #FFFFFF; font-size: 12px; font-weight: 700; border-radius: 4px; padding-left: 15; padding-right: 15; background-color: #00000000;
+  width: 98px; height: 36px; border: 1px solid #FFFFFF;
+}
+/*  */
+.finalorder-container
+{
+  width: 100%; height: 57vh;
+}
+.finalorder-wrapper
+{
+  margin-top: 220px;
+}
+.fo-center-text
+{
+  margin-top: 35px; text-align: center; color: #ffffff; font-family: 'Starlink-D-DIN-Bold'; font-weight: 700; font-size: 51px; margin-bottom: 8px; font-stretch: expanded; line-height: 1.2;
+}
+.fo-center-text-d
+{
+  margin-top: 12px; text-align: center; color: #ffffff; font-family: 'Starlink-D-DIN-Regular'; font-weight: 400; font-size: 25px; margin-bottom: 8px; font-stretch: expanded; margin-bottom: 0.5rem;
+}
+/*  */
+.footer
+{
+  width:100%; height:60px;padding: 20px;
+  background-color:rgb(0, 0, 0);
+}
+.footer-left
+{
+  width: 45%; height: 60px; background-color: rgb(0, 0, 0); float: left;
+}
+.footer-right
+{
+  width: 50%; height: 60px; background-color: rgb(0, 0, 0); float: left;
+}
+.x23
+{
+  font-family:'Starlink-Roboto'; font-size: 14px; text-decoration: none; color: #FFFFFF; margin-right: 15px;
+}
+.x24
+{
+  font-family:'Starlink-Roboto'; font-size: 14px; text-decoration: none; color: #FFFFFF; margin-left: 10px; display: inline-flex; margin-top: 20px; margin-bottom: 10px;
+}
+.x25
+{
+  font-family:'Starlink-Roboto'; font-size: 14px; text-decoration: none; color: #FFFFFF; display: inline-flex; margin-top: 6px; margin-bottom: 0px; margin-left: 279px;
+}
+.x30
+{
+  font-family:'Starlink-Roboto'; font-size: 14px; text-decoration: none; color: #FFFFFF; float: left; margin-left: 463px;
+}
+.signup-button
+{
+  background-color: #ffffff00; font-family:'Starlink-Roboto'; align-items: center; border: none;
+}
+.sgup
+{
+  margin-left:10px; height: 20px; float: inline-start; 
+}
+#center-text-dd
+{
+  margin-top: 9px; text-align: center; color: #ffffff; font-family: 'Starlink-D-DIN-Bold'; font-weight: 400; font-size: 12px; margin-bottom: 8px; font-stretch: expanded; margin-bottom: 0.5rem; 
+  align-items: center;
+}
+.email
+{
+  background-color: #00000010; border: none; border-bottom: #FFFFFF; border-width: 1px;
+}
