@@ -69,7 +69,7 @@ body
 /*  */
 .container
 {
-  background-image: url(./Images/home_1intro.webp); background-position: center; background-size: cover; background-repeat: no-repeat; height: 700px
+  background-image: url(./Images/home_1intro.webp); background-position: center; background-size: cover; background-repeat: no-repeat; height: 700px;
 }
 .center-text
 {
